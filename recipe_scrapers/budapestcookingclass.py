@@ -5,8 +5,10 @@ from ._wprm import WPRMMixin
 
 
 class BudapestCookingClass(WPRMMixin, AbstractScraper):
+    """Schema-backed recipes; WP Recipe Maker supplies only equipment."""
+
     def __init__(self, html: str, url: str, best_image: bool | None = None):
-        # Page-wide image metadata includes unrelated cooking-class photos.
+        # Page-wide image metadata includes unrelated class and tour photos.
         super().__init__(
             html, url, best_image=False if best_image is None else best_image
         )

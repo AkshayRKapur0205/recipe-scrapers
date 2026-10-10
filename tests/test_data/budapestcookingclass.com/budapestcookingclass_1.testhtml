@@ -1,103 +1,363 @@
 <!DOCTYPE html>
-<!-- Synthetic fixture modeled on the soup page's JSON-LD and WP Recipe Maker
-     structure. Recipe text, author and image URLs are invented, not copied.
-     Source: https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/ -->
+<!-- Generated with generate.py from https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/ on 2026-10-10. Minimized to original recipe schema, metadata, ingredients and equipment for technical testing; executable code and unrelated content removed. -->
 <html lang="en-US">
-<head>
-  <title>Synthetic soup with dumplings</title>
-  <link rel="canonical" href="https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/">
-  <meta property="og:site_name" content="Culinary Hungary">
-  <meta property="og:image" content="https://images.example/synthetic-soup-1200x900.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="900">
-  <meta property="og:image" content="https://images.example/synthetic-soup-alternate.jpg">
-  <meta property="og:image:width" content="1600">
-  <meta property="og:image:height" content="1200">
-  <script type="application/ld+json" class="yoast-schema-graph">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "headline": "Synthetic soup article"
+ <head>
+  <title>
+   Hungarian egg drop soup with potato dumplings - Culinary Hungary
+  </title>
+  <link href="https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/" rel="canonical"/>
+  <meta content="en_US" property="og:locale"/>
+  <meta content="article" property="og:type"/>
+  <meta content="Hungarian egg drop soup with potato dumplings - Culinary Hungary" property="og:title"/>
+  <meta content="Hungarian egg drop soup with potato dumplings is an easy, quick and delicios starter. It is done in 30 minutes, perfect for weekday meals." property="og:description"/>
+  <meta content="https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/" property="og:url"/>
+  <meta content="Culinary Hungary" property="og:site_name"/>
+  <meta content="https://budapestcookingclass.com/wp-content/uploads/2021/04/Hungarian-eggdrop-soup-tojasleves-recipe-scaled-e1617800981860.jpg" property="og:image"/>
+  <meta content="470" property="og:image:width"/>
+  <meta content="627" property="og:image:height"/>
+  <meta content="image/jpeg" property="og:image:type"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="@AgnesBarath" name="twitter:creator"/>
+  <meta content="Written by" name="twitter:label1"/>
+  <meta content="Barath Agnes" name="twitter:data1"/>
+  <meta content="Est. reading time" name="twitter:label2"/>
+  <meta content="5 minutes" name="twitter:data2"/>
+  <meta content="en_US" property="og:locale"/>
+  <meta content="article" property="og:type"/>
+  <meta content="Culinary Hungary" property="og:site_name"/>
+  <meta content="Hungarian egg drop soup with potato dumplings - Culinary Hungary" property="og:title"/>
+  <meta content="This post may contain affiliate links.
+Hungarian Egg Drop Soup With Potato Dumplings
+Hungarian egg drop soup is a very simple, tasty and nourishing starter. It is done in 10 minutes, you can serve it with potato dumplings seasond with smoked bacon to make it more filling. If you" property="og:description"/>
+  <meta content="https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/" property="og:url"/>
+  <meta content="https://budapestcookingclass.com/wp-content/uploads/2021/04/Hungarian-eggdrop-soup-tojasleves-recipe-scaled-e1617800981860.jpg" property="og:image"/>
+  <meta content="470" property="og:image:width"/>
+  <meta content="627" property="og:image:height"/>
+  <meta content="image/jpeg" property="og:image:type"/>
+  <script class="yoast-schema-graph" type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://budapestcookingclass.com/#website",
+      "name": "Culinary Hungary"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://budapestcookingclass.com/#/schema/person/f9b514b218b08569655adc7be97f2848",
+      "name": "Barath Agnes"
+    },
+    {
+      "@type": "Recipe",
+      "name": "Hungarian Egg Drop Soup With Potato Dumplings",
+      "author": {
+        "@id": "https://budapestcookingclass.com/#/schema/person/f9b514b218b08569655adc7be97f2848"
       },
-      {
-        "@type": "WebSite",
-        "name": "Culinary Hungary"
-      },
-      {
-        "@type": "Person",
-        "@id": "https://budapestcookingclass.com/#/schema/person/test-cook",
-        "name": "Test Cook"
-      },
-      {
-        "@type": "Recipe",
-        "name": "Synthetic soup with dumplings",
-        "author": {
-          "@id": "https://budapestcookingclass.com/#/schema/person/test-cook"
+      "description": "Hungarian egg drop soup is a very simple, tasty and nourishing starter. It is done in 10 minutes, you can serve it with potato dumplings seasond with smoked bacon to make it more filling. If you are looking for a cheap, quick and delicious recipe, try this Hungarian soup.",
+      "datePublished": "2021-04-07T18:43:39+00:00",
+      "image": [
+        "https://budapestcookingclass.com/wp-content/uploads/2021/04/Hungarian-eggdrop-soup-tojasleves-scaled-e1617800555382.jpg",
+        "https://budapestcookingclass.com/wp-content/uploads/2021/04/Hungarian-eggdrop-soup-tojasleves-scaled-e1617800555382-500x500.jpg",
+        "https://budapestcookingclass.com/wp-content/uploads/2021/04/Hungarian-eggdrop-soup-tojasleves-scaled-e1617800555382-500x375.jpg",
+        "https://budapestcookingclass.com/wp-content/uploads/2021/04/Hungarian-eggdrop-soup-tojasleves-scaled-e1617800555382-480x270.jpg"
+      ],
+      "recipeYield": [
+        "4",
+        "4 people"
+      ],
+      "totalTime": "PT45M",
+      "recipeIngredient": [
+        "1  smaller onion, diced",
+        "2 tbsp vegetable oil (sunflower, canola)",
+        "1 teaspoon sweet paprika powder",
+        "1/2 teaspoon ground caraway seeds",
+        "3 whole eggs",
+        "2.5 tbsp all purpose flower",
+        "salt to taste",
+        "1 cup cubed potatoes (2 medium or 3 smaller potatoes)",
+        "1 whole  egg",
+        "4 strips bacon",
+        "1 cup all purpose flower",
+        "parsley to season"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Peel and cube the potatoes, cook them in salted water until tender.",
+          "name": "Peel and cube the potatoes, cook them in salted water until tender.",
+          "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-5788-step-0-0"
         },
-        "image": [
-          "https://images.example/synthetic-soup-1200x900.jpg",
-          "https://images.example/synthetic-soup-500x500.jpg"
-        ],
-        "recipeYield": ["4", "4 people"],
-        "totalTime": "PT45M",
-        "recipeIngredient": [
-          "2 cups water",
-          "1  egg",
-          "1 pinch salt",
-          "1 small potato",
-          "2 tablespoons flour"
-        ],
-        "recipeInstructions": [
-          {
-            "@type": "HowToStep",
-            "text": "Warm the water in a saucepan.",
-            "name": "Warm the water in a saucepan.",
-            "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-1-step-0-0"
-          },
-          {
-            "@type": "HowToStep",
-            "text": "Whisk in the egg and add a pinch of salt.",
-            "name": "Whisk in the egg and add a pinch of salt.",
-            "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-1-step-0-1"
-          },
-          {
-            "@type": "HowToStep",
-            "text": "Mix the cooked potato with flour, shape dumplings and simmer.",
-            "name": "Mix the cooked potato with flour, shape dumplings and simmer.",
-            "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-1-step-0-2"
-          }
-        ]
-      }
-    ]
-  }
+        {
+          "@type": "HowToStep",
+          "text": "Cube the smoked bacon stripes and fry them in a small pan. Take the fried pieces out and set aside in a small bowl.",
+          "name": "Cube the smoked bacon stripes and fry them in a small pan. Take the fried pieces out and set aside in a small bowl.",
+          "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-5788-step-0-1"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "In a soup pot, sauté the diced onions in 2 tablespoons of vegetable oil over low heat, stirring frequently, until translucent. Do not let them burn. Salt lightly to help tenderize them.",
+          "name": "In a soup pot, sauté the diced onions in 2 tablespoons of vegetable oil over low heat, stirring frequently, until translucent. Do not let them burn. Salt lightly to help tenderize them.",
+          "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-5788-step-0-2"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add 2,5 tablespoons of all purpose flour and toast it for 1-2 minutes until starts to brown a little bit.",
+          "name": "Add 2,5 tablespoons of all purpose flour and toast it for 1-2 minutes until starts to brown a little bit.",
+          "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-5788-step-0-3"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Heat up 4 cups of water and slowly pour 1 cup of hot water to the onion-flour mixture and stir, it will thicken up. Add 1 teaspoon of sweet paprika powder, 1/2 teaspoon of ground caraway seeds and pour in the rest of the hot water, bring it to a boil. Salt to taste.",
+          "name": "Heat up 4 cups of water and slowly pour 1 cup of hot water to the onion-flour mixture and stir, it will thicken up. Add 1 teaspoon of sweet paprika powder, 1/2 teaspoon of ground caraway seeds and pour in the rest of the hot water, bring it to a boil. Salt to taste.",
+          "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-5788-step-0-4"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Crack 3 eggs in a ball and stir them. Do not whisk, just gently stir. Add the eggs to the soup, stir and slowly boil until the eggs are cooked.",
+          "name": "Crack 3 eggs in a ball and stir them. Do not whisk, just gently stir. Add the eggs to the soup, stir and slowly boil until the eggs are cooked.",
+          "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-5788-step-0-5"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Drain the cooked potatoes, cool down and mash them. Add 1 egg, the fried bacon pieces and around 1 cup of all purpose flour. Mix together with your hands until the dough holds together. Add more flour if necessary. Salt to taste.",
+          "name": "Drain the cooked potatoes, cool down and mash them. Add 1 egg, the fried bacon pieces and around 1 cup of all purpose flour. Mix together with your hands until the dough holds together. Add more flour if necessary. Salt to taste.",
+          "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-5788-step-0-6"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Then form the dough into golf ball size balls. To keep the dumplings from sticking to your hands when you are forming them, you can either wet your hands with water, or dust your hands with flour. Put the dumplings into salted boiling water and cook for about 7-8 minutes, then take them out and set aside.",
+          "name": "Then form the dough into golf ball size balls. To keep the dumplings from sticking to your hands when you are forming them, you can either wet your hands with water, or dust your hands with flour. Put the dumplings into salted boiling water and cook for about 7-8 minutes, then take them out and set aside.",
+          "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-5788-step-0-7"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Serve the soup with the potato dumplings, sprinkle with parsley.",
+          "name": "Serve the soup with the potato dumplings, sprinkle with parsley.",
+          "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-5788-step-0-8"
+        }
+      ],
+      "recipeCategory": [
+        "Soup"
+      ],
+      "recipeCuisine": [
+        "Hungarian"
+      ],
+      "keywords": "egg soup, potato dumpling, quick soup, winter soup",
+      "@id": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#recipe",
+      "isPartOf": {
+        "@id": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#article"
+      },
+      "mainEntityOfPage": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/"
+    }
+  ]
+}
   </script>
-</head>
-<body>
-  <div class="wprm-recipe wprm-recipe-snippet"></div>
-  <div class="wprm-recipe-container" id="wprm-recipe-container-1">
-    <div class="wprm-recipe">
-      <div class="wprm-recipe-equipment-container">
-        <div class="wprm-recipe-equipment-name">Saucepan</div>
-        <div class="wprm-recipe-equipment-name">Mixing bowl</div>
+ </head>
+ <body>
+  <div class="wprm-recipe-container" id="wprm-recipe-container-5788">
+   <div class="wprm-recipe wprm-recipe-template-my-chic">
+    <div class="wprm-recipe-equipment-container wprm-block-text-normal" id="recipe-5788-equipment">
+     <h3 class="wprm-recipe-header wprm-recipe-equipment-header wprm-block-text-uppercase wprm-align-left wprm-header-decoration-line">
+      Equipment
+      <div class="wprm-decoration-line">
       </div>
-      <div class="wprm-recipe-ingredient-group">
-        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the soup</h4>
-        <ul class="wprm-recipe-ingredients">
-          <li class="wprm-recipe-ingredient">2 cups water</li>
-          <li class="wprm-recipe-ingredient">1 egg</li>
-          <li class="wprm-recipe-ingredient">1 pinch salt</li>
-        </ul>
-      </div>
-      <div class="wprm-recipe-ingredient-group">
-        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the potato dumplings</h4>
-        <ul class="wprm-recipe-ingredients">
-          <li class="wprm-recipe-ingredient">1 small potato</li>
-          <li class="wprm-recipe-ingredient">2 tablespoons flour</li>
-        </ul>
-      </div>
+     </h3>
+     <div class="wprm-spacer">
+     </div>
+     <ul class="wprm-recipe-equipment wprm-recipe-equipment-list">
+      <li class="wprm-recipe-equipment-item">
+       <div class="wprm-recipe-equipment-name">
+        Cutting board
+       </div>
+      </li>
+      <li class="wprm-recipe-equipment-item">
+       <div class="wprm-recipe-equipment-name">
+        medium soup pot
+       </div>
+      </li>
+      <li class="wprm-recipe-equipment-item">
+       <div class="wprm-recipe-equipment-name">
+        medium saucepan
+       </div>
+      </li>
+      <li class="wprm-recipe-equipment-item">
+       <div class="wprm-recipe-equipment-name">
+        Peeler
+       </div>
+      </li>
+      <li class="wprm-recipe-equipment-item">
+       <div class="wprm-recipe-equipment-name">
+        Chef's knife
+       </div>
+      </li>
+      <li class="wprm-recipe-equipment-item">
+       <div class="wprm-recipe-equipment-name">
+        potato mash
+       </div>
+      </li>
+      <li class="wprm-recipe-equipment-item">
+       <div class="wprm-recipe-equipment-name">
+        Medium bowl
+       </div>
+      </li>
+      <li class="wprm-recipe-equipment-item">
+       <div class="wprm-recipe-equipment-name">
+        Measuring cups
+       </div>
+      </li>
+      <li class="wprm-recipe-equipment-item">
+       <div class="wprm-recipe-equipment-name">
+        Measuring spoons
+       </div>
+      </li>
+     </ul>
     </div>
+    <div class="wprm-recipe-ingredients-container wprm-recipe-5788-ingredients-container wprm-block-text-normal wprm-ingredient-style-regular wprm-recipe-images-before" id="recipe-5788-ingredients">
+     <h3 class="wprm-recipe-header wprm-recipe-ingredients-header wprm-block-text-uppercase wprm-align-left wprm-header-decoration-line wprm-header-has-actions wprm-header-has-actions">
+      Ingredients
+      <div class="wprm-decoration-line">
+      </div>
+     </h3>
+     <div class="wprm-recipe-ingredient-group">
+      <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-faded">
+       For the soup
+      </h4>
+      <ul class="wprm-recipe-ingredients">
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         smaller onion, diced
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         tbsp
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         vegetable oil
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         sunflower, canola
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         teaspoon
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         sweet paprika powder
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1/2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         teaspoon
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         ground caraway seeds
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         3
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         whole
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         eggs
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         2.5
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         tbsp
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         all purpose flower
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-name">
+         salt to taste
+        </span>
+       </li>
+      </ul>
+     </div>
+     <div class="wprm-recipe-ingredient-group">
+      <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-faded">
+       For the potato dumplings
+      </h4>
+      <ul class="wprm-recipe-ingredients">
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cup
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         cubed potatoes
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         2 medium or 3 smaller potatoes
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         whole
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         egg
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         4
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         strips
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         bacon
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cup
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         all purpose flower
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-name">
+         parsley to season
+        </span>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
   </div>
-</body>
+ </body>
 </html>

@@ -1,45 +1,80 @@
 {
-  "author": "Test Cook",
+  "author": "Barath Agnes",
   "canonical_url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/",
   "site_name": "Culinary Hungary",
   "host": "budapestcookingclass.com",
   "language": "en-US",
-  "title": "Synthetic soup with dumplings",
+  "title": "Hungarian Egg Drop Soup With Potato Dumplings",
   "ingredients": [
-    "2 cups water",
-    "1 egg",
-    "1 pinch salt",
-    "1 small potato",
-    "2 tablespoons flour"
+    "1 smaller onion, diced",
+    "2 tbsp vegetable oil (sunflower, canola)",
+    "1 teaspoon sweet paprika powder",
+    "1/2 teaspoon ground caraway seeds",
+    "3 whole eggs",
+    "2.5 tbsp all purpose flower",
+    "salt to taste",
+    "1 cup cubed potatoes (2 medium or 3 smaller potatoes)",
+    "1 whole egg",
+    "4 strips bacon",
+    "1 cup all purpose flower",
+    "parsley to season"
   ],
   "ingredient_groups": [
     {
       "ingredients": [
-        "2 cups water",
-        "1 egg",
-        "1 pinch salt"
+        "1 smaller onion, diced",
+        "2 tbsp vegetable oil (sunflower, canola)",
+        "1 teaspoon sweet paprika powder",
+        "1/2 teaspoon ground caraway seeds",
+        "3 whole eggs",
+        "2.5 tbsp all purpose flower",
+        "salt to taste"
       ],
       "purpose": "For the soup"
     },
     {
       "ingredients": [
-        "1 small potato",
-        "2 tablespoons flour"
+        "1 cup cubed potatoes (2 medium or 3 smaller potatoes)",
+        "1 whole egg",
+        "4 strips bacon",
+        "1 cup all purpose flower",
+        "parsley to season"
       ],
       "purpose": "For the potato dumplings"
     }
   ],
-  "instructions": "Warm the water in a saucepan.\nWhisk in the egg and add a pinch of salt.\nMix the cooked potato with flour, shape dumplings and simmer.",
   "instructions_list": [
-    "Warm the water in a saucepan.",
-    "Whisk in the egg and add a pinch of salt.",
-    "Mix the cooked potato with flour, shape dumplings and simmer."
+    "Peel and cube the potatoes, cook them in salted water until tender.",
+    "Cube the smoked bacon stripes and fry them in a small pan. Take the fried pieces out and set aside in a small bowl.",
+    "In a soup pot, sauté the diced onions in 2 tablespoons of vegetable oil over low heat, stirring frequently, until translucent. Do not let them burn. Salt lightly to help tenderize them.",
+    "Add 2,5 tablespoons of all purpose flour and toast it for 1-2 minutes until starts to brown a little bit.",
+    "Heat up 4 cups of water and slowly pour 1 cup of hot water to the onion-flour mixture and stir, it will thicken up. Add 1 teaspoon of sweet paprika powder, 1/2 teaspoon of ground caraway seeds and pour in the rest of the hot water, bring it to a boil. Salt to taste.",
+    "Crack 3 eggs in a ball and stir them. Do not whisk, just gently stir. Add the eggs to the soup, stir and slowly boil until the eggs are cooked.",
+    "Drain the cooked potatoes, cool down and mash them. Add 1 egg, the fried bacon pieces and around 1 cup of all purpose flour. Mix together with your hands until the dough holds together. Add more flour if necessary. Salt to taste.",
+    "Then form the dough into golf ball size balls. To keep the dumplings from sticking to your hands when you are forming them, you can either wet your hands with water, or dust your hands with flour. Put the dumplings into salted boiling water and cook for about 7-8 minutes, then take them out and set aside.",
+    "Serve the soup with the potato dumplings, sprinkle with parsley."
   ],
+  "category": "Soup",
   "yields": "4 servings",
+  "description": "Hungarian egg drop soup is a very simple, tasty and nourishing starter. It is done in 10 minutes, you can serve it with potato dumplings seasond with smoked bacon to make it more filling. If you are looking for a cheap, quick and delicious recipe, try this Hungarian soup.",
   "total_time": 45,
+  "cuisine": "Hungarian",
   "equipment": [
-    "Saucepan",
-    "Mixing bowl"
+    "Cutting board",
+    "medium soup pot",
+    "medium saucepan",
+    "Peeler",
+    "Chef's knife",
+    "potato mash",
+    "Medium bowl",
+    "Measuring cups",
+    "Measuring spoons"
   ],
-  "image": "https://images.example/synthetic-soup-1200x900.jpg"
+  "image": "https://budapestcookingclass.com/wp-content/uploads/2021/04/Hungarian-eggdrop-soup-tojasleves-scaled-e1617800555382.jpg",
+  "keywords": [
+    "egg soup",
+    "potato dumpling",
+    "quick soup",
+    "winter soup"
+  ]
 }

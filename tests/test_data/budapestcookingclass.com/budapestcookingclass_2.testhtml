@@ -1,117 +1,568 @@
 <!DOCTYPE html>
-<!-- Synthetic fixture modeled on the beigli page's JSON-LD, illustrated
-     instructions, conflicting OpenGraph images and four WP Recipe Maker
-     ingredient groups. Recipe text, author and image URLs are invented, not copied.
-     Source: https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/ -->
+<!-- Generated with generate.py from https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/ on 2026-10-10. Minimized to original recipe schema, metadata, ingredients and equipment for technical testing; executable code and unrelated content removed. -->
 <html lang="en-US">
-<head>
-  <title>Synthetic walnut and poppy seed rolls</title>
-  <link rel="canonical" href="https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/">
-  <meta property="og:site_name" content="Culinary Hungary">
-  <meta property="og:image" content="https://images.example/synthetic-rolls-1200x900.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="900">
-  <meta property="og:image" content="https://images.example/synthetic-cooking-class.jpg">
-  <meta property="og:image:width" content="1600">
-  <meta property="og:image:height" content="1200">
-  <script type="application/ld+json" class="yoast-schema-graph">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "headline": "Synthetic roll cake article"
+ <head>
+  <title>
+   Hungarian Beigli, Christmas Poppy Seed and Walnut Roll Cake
+  </title>
+  <link href="https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/" rel="canonical"/>
+  <meta content="en_US" property="og:locale"/>
+  <meta content="article" property="og:type"/>
+  <meta content="Helló szi hogy vagy" property="og:title"/>
+  <meta content="Jó lenne, ha végre behozá a jó információt" property="og:description"/>
+  <meta content="https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/" property="og:url"/>
+  <meta content="Culinary Hungary" property="og:site_name"/>
+  <meta content="https://budapestcookingclass.com/wp-content/uploads/2017/03/Market-tasting-Budapest-B.jpeg" property="og:image"/>
+  <meta content="800" property="og:image:width"/>
+  <meta content="600" property="og:image:height"/>
+  <meta content="image/jpeg" property="og:image:type"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="Written by" name="twitter:label1"/>
+  <meta content="culinaryhungary" name="twitter:data1"/>
+  <meta content="Est. reading time" name="twitter:label2"/>
+  <meta content="8 minutes" name="twitter:data2"/>
+  <meta content="en_US" property="og:locale"/>
+  <meta content="article" property="og:type"/>
+  <meta content="Culinary Hungary" property="og:site_name"/>
+  <meta content="Hungarian Beigli, Christmas Poppy Seed and Walnut Roll Cake" property="og:title"/>
+  <meta content="This post may contain affiliate links.
+Hungarian Beigli - Christmas poppy seed and walnut roll cake
+Christmas tables would not be complete without poppy seed or walnut beigli. It is often called walnut roll or poppy seed roll, both fillings are traditional" property="og:description"/>
+  <meta content="https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/" property="og:url"/>
+  <meta content="https://budapestcookingclass.com/wp-content/uploads/2016/12/Beigli-Hungarian-poppy-seed-walnut-roll-cake-Christmas-e1666174961515.jpg" property="og:image"/>
+  <meta content="470" property="og:image:width"/>
+  <meta content="627" property="og:image:height"/>
+  <meta content="image/jpeg" property="og:image:type"/>
+  <script class="yoast-schema-graph" type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://budapestcookingclass.com/#website",
+      "name": "Culinary Hungary"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://budapestcookingclass.com/#/schema/person/f019f4a92e7a9bf7e8758312e0d694b3",
+      "name": "culinaryhungary"
+    },
+    {
+      "@type": "Recipe",
+      "name": "Hungarian Beigli - Christmas poppy seed and walnut roll cake",
+      "author": {
+        "@id": "https://budapestcookingclass.com/#/schema/person/f019f4a92e7a9bf7e8758312e0d694b3"
       },
-      {
-        "@type": "WebSite",
-        "name": "Culinary Hungary"
-      },
-      {
-        "@type": "Person",
-        "@id": "https://budapestcookingclass.com/#/schema/person/test-baker",
-        "name": "Test Baker"
-      },
-      {
-        "@type": "Recipe",
-        "name": "Synthetic walnut and poppy seed rolls",
-        "author": {
-          "@id": "https://budapestcookingclass.com/#/schema/person/test-baker"
+      "description": "Hungarian Beigli is a traditional walnut and poppy seed roll which is served in many Hungarian families at Christmas as a special treat. The Christmas meal table would be incomplete without these rolls.",
+      "datePublished": "2022-10-15T21:35:13+00:00",
+      "image": [
+        "https://budapestcookingclass.com/wp-content/uploads/2022/10/Beigli-Hungarian-poppy-seed-walnut-roll-cake-Christmas-e1666175162991.jpg",
+        "https://budapestcookingclass.com/wp-content/uploads/2022/10/Beigli-Hungarian-poppy-seed-walnut-roll-cake-Christmas-e1666175162991-500x500.jpg",
+        "https://budapestcookingclass.com/wp-content/uploads/2022/10/Beigli-Hungarian-poppy-seed-walnut-roll-cake-Christmas-e1666175162991-500x375.jpg",
+        "https://budapestcookingclass.com/wp-content/uploads/2022/10/Beigli-Hungarian-poppy-seed-walnut-roll-cake-Christmas-e1666175162991-480x270.jpg"
+      ],
+      "recipeYield": [
+        "6",
+        "6 people"
+      ],
+      "totalTime": "PT150M",
+      "recipeIngredient": [
+        "17.6  ounces all purpose flour (500 grams)",
+        "3.5 ounces  unsalted butter (100 grams)",
+        "3.5 ounces pork lard (100 grams )",
+        "1 teaspoon sugar",
+        "1/2 cup powdered sugar (50 grams)",
+        "2  eggs",
+        "0.5 ounces fresh yeast (15 grams)",
+        "1/2 cup whole milk",
+        "1 teaspoon  vanilla extract",
+        "1 teaspoon lemon zest",
+        "1 pinch of salt",
+        "2 cups walnuts (finely ground, 200 grams)",
+        "1 handful walnuts (coarsly chopped)",
+        "1/2 cup milk (whole)",
+        "1  cup powdered sugar (100 grams)",
+        "1 pinch ground cinnamon",
+        "2 tbsp raisins (optional)",
+        "2  tbsp apricot jam",
+        "1 coffeespoon lemon zest",
+        "1 cofeespoon orange zest",
+        "8.5 ounces poppy seeds (ground, 250 grams)",
+        "1/2  cup milk (whole)",
+        "1  cup powdered sugar",
+        "2  tbsp raisins (optional)",
+        "1  coffeespoon lemon zest",
+        "1  egg (for eggwash)"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Dissolve 1 teaspoon of sugar in the lukewarm milk, then add the yeast, wait a few minutes until blooms.",
+          "name": "Dissolve 1 teaspoon of sugar in the lukewarm milk, then add the yeast, wait a few minutes until blooms.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-0"
         },
-        "image": [
-          "https://images.example/synthetic-rolls-1200x900.jpg",
-          "https://images.example/synthetic-rolls-500x500.jpg"
-        ],
-        "recipeYield": ["6", "6 people"],
-        "totalTime": "PT150M",
-        "recipeIngredient": [
-          "2 cups flour",
-          "1 cup whole milk",
-          "1 cup ground walnuts",
-          "2 tablespoons sugar",
-          "1 cup milk (whole)",
-          "1 cup ground poppy seeds",
-          "1 cup milk (whole)",
-          "1 egg yolk"
-        ],
-        "recipeInstructions": [
-          {
-            "@type": "HowToStep",
-            "text": "Combine the flour and milk to make the test dough.",
-            "name": "Combine the flour and milk to make the test dough.",
-            "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-2-step-0-0"
-          },
-          {
-            "@type": "HowToStep",
-            "text": "Spread the fillings on separate portions and roll them up.",
-            "name": "Spread the fillings on separate portions and roll them up.",
-            "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-2-step-0-1",
-            "image": "https://images.example/synthetic-roll-step.jpg"
-          },
-          {
-            "@type": "HowToStep",
-            "text": "Brush with egg yolk and bake until golden.",
-            "name": "Brush with egg yolk and bake until golden.",
-            "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-2-step-0-2"
-          }
-        ]
-      }
-    ]
-  }
+        {
+          "@type": "HowToStep",
+          "text": "Mix the flour with the butter and lard by hand. The mixture will be quite crumbly.",
+          "name": "Mix the flour with the butter and lard by hand. The mixture will be quite crumbly.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-1"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add 2 whole eggs, the powdered sugar, pinch of salt, vanilla sugar, lemon zest and the yeast/milk mixture. Knead thoroughly. Add more flour if necessary.",
+          "name": "Add 2 whole eggs, the powdered sugar, pinch of salt, vanilla sugar, lemon zest and the yeast/milk mixture. Knead thoroughly. Add more flour if necessary.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-2"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Divide the dough into 4 balls, cover and let rest for 30 minutes.",
+          "name": "Divide the dough into 4 balls, cover and let rest for 30 minutes.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-3"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Meanwhile, you have time to make the walnut and poppy seed filling.",
+          "name": "Meanwhile, you have time to make the walnut and poppy seed filling.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-4"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Walnut filling: In a pan heat the milk with the sugar, bring it to a boil. Take the pan off the heat, add the ground and coarsely chopped walnuts, the raisins, the lemon and orange zest, the cinnamon and the apricot jam. Mix well and let it cool completely.",
+          "name": "Walnut filling: In a pan heat the milk with the sugar, bring it to a boil. Take the pan off the heat, add the ground and coarsely chopped walnuts, the raisins, the lemon and orange zest, the cinnamon and the apricot jam. Mix well and let it cool completely.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-5"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Poppy seed filling: In a pan heat the milk with the sugar, bring it to a boil. Take the pan off the heat, add the ground poppy seeds, the raisins and the lemon zest. Mix well and let it cool completely.",
+          "name": "Poppy seed filling: In a pan heat the milk with the sugar, bring it to a boil. Take the pan off the heat, add the ground poppy seeds, the raisins and the lemon zest. Mix well and let it cool completely.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-6"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Heat the oven to 180°C (355°F). Line a pan with parchment paper.",
+          "name": "Heat the oven to 180°C (355°F). Line a pan with parchment paper.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-7"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "On a floured surface roll out each piece of the dough into a rectangle measuring about 12×14 inches (30×35 cm).",
+          "name": "On a floured surface roll out each piece of the dough into a rectangle measuring about 12×14 inches (30×35 cm).",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-8",
+          "image": "https://budapestcookingclass.com/wp-content/uploads/2022/10/Spread-walnut-beigli.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Spread the walnut or poppy seed filling on the dough while leaving approx. 1/2 inch empty edges on each side, and roll up lengthwise. Make sure it is not too tight and not too losse. Carefully transfer the rolls onto the baking sheet.",
+          "name": "Spread the walnut or poppy seed filling on the dough while leaving approx. 1/2 inch empty edges on each side, and roll up lengthwise. Make sure it is not too tight and not too losse. Carefully transfer the rolls onto the baking sheet.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-9",
+          "image": "https://budapestcookingclass.com/wp-content/uploads/2022/10/Roll-walnut-beigli.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Egg wash: Separate the egg, set the egg whites aside. Gently whisk the egg yolk and brush the top of the 4 rolls. Let them sit in the yolk dries, it will take about half an hour or so. After the egg yolk has dried, brush on the egg white, let it dry in a cool place, if possible not in the fridge.You can leave them overnight and bake the next day.",
+          "name": "Egg wash: Separate the egg, set the egg whites aside. Gently whisk the egg yolk and brush the top of the 4 rolls. Let them sit in the yolk dries, it will take about half an hour or so. After the egg yolk has dried, brush on the egg white, let it dry in a cool place, if possible not in the fridge.You can leave them overnight and bake the next day.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-10",
+          "image": "https://budapestcookingclass.com/wp-content/uploads/2022/10/eggwash-walnut-beigli.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Prick on the top with a skewer, making sure it goes all the way through. It allows vapor to escape, that could cause the pastry to split.",
+          "name": "Prick on the top with a skewer, making sure it goes all the way through. It allows vapor to escape, that could cause the pastry to split.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-11",
+          "image": "https://budapestcookingclass.com/wp-content/uploads/2022/10/beigli-holes.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake the rolls for about 30-35 minutes or until golden brown. Keep the rolls in a cool and dry place and slice them only before serving.",
+          "name": "Bake the rolls for about 30-35 minutes or until golden brown. Keep the rolls in a cool and dry place and slice them only before serving.",
+          "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-4715-step-0-12",
+          "image": "https://budapestcookingclass.com/wp-content/uploads/2022/10/bake-poppy-walnut-beigli.jpg"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3",
+        "reviewCount": "1"
+      },
+      "recipeCategory": [
+        "Dessert"
+      ],
+      "recipeCuisine": [
+        "Hungarian"
+      ],
+      "keywords": "Hungarian beigli, poppy seed roll, walnut roll",
+      "@id": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#recipe",
+      "isPartOf": {
+        "@id": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#article"
+      },
+      "mainEntityOfPage": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/"
+    }
+  ]
+}
   </script>
-</head>
-<body>
-  <div class="wprm-recipe wprm-recipe-snippet"></div>
-  <div class="wprm-recipe-container" id="wprm-recipe-container-2">
-    <div class="wprm-recipe">
-      <div class="wprm-recipe-ingredient-group">
-        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the dough</h4>
-        <ul class="wprm-recipe-ingredients">
-          <li class="wprm-recipe-ingredient">2 cups flour</li>
-          <li class="wprm-recipe-ingredient">1 cup whole milk</li>
-        </ul>
+ </head>
+ <body>
+  <div class="wprm-recipe-container" id="wprm-recipe-container-4715">
+   <div class="wprm-recipe wprm-recipe-template-my-chic">
+    <div class="wprm-recipe-ingredients-container wprm-recipe-4715-ingredients-container wprm-block-text-normal wprm-ingredient-style-regular wprm-recipe-images-before" id="recipe-4715-ingredients">
+     <h3 class="wprm-recipe-header wprm-recipe-ingredients-header wprm-block-text-uppercase wprm-align-left wprm-header-decoration-line wprm-header-has-actions wprm-header-has-actions">
+      Ingredients
+      <div class="wprm-decoration-line">
       </div>
-      <div class="wprm-recipe-ingredient-group">
-        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the walnut filling</h4>
-        <ul class="wprm-recipe-ingredients">
-          <li class="wprm-recipe-ingredient">1 cup ground walnuts</li>
-          <li class="wprm-recipe-ingredient">2 tablespoons sugar</li>
-          <li class="wprm-recipe-ingredient">1 cup milk <span class="wprm-recipe-ingredient-notes">whole</span></li>
-        </ul>
-      </div>
-      <div class="wprm-recipe-ingredient-group">
-        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the poppy seed filling</h4>
-        <ul class="wprm-recipe-ingredients">
-          <li class="wprm-recipe-ingredient">1 cup ground poppy seeds</li>
-          <li class="wprm-recipe-ingredient">1 cup milk <span class="wprm-recipe-ingredient-notes">whole</span></li>
-        </ul>
-      </div>
-      <div class="wprm-recipe-ingredient-group">
-        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Other</h4>
-        <ul class="wprm-recipe-ingredients">
-          <li class="wprm-recipe-ingredient">1 egg yolk</li>
-        </ul>
-      </div>
+     </h3>
+     <div class="wprm-recipe-ingredient-group">
+      <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-faded">
+       For the dough
+      </h4>
+      <ul class="wprm-recipe-ingredients">
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         17.6
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         ounces
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         all purpose flour
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         500 grams
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         3.5
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         ounces
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         unsalted butter
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         100 grams
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         3.5
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         ounces
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         pork lard
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         100 grams
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         teaspoon
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         sugar
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1/2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cup
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         powdered sugar
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         50 grams
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         2
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         eggs
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         0.5
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         ounces
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         fresh yeast
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         15 grams
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1/2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cup
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         whole milk
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         teaspoon
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         vanilla extract
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         teaspoon
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         lemon zest
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         pinch
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         of salt
+        </span>
+       </li>
+      </ul>
+     </div>
+     <div class="wprm-recipe-ingredient-group">
+      <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-faded">
+       For the walnut filling
+      </h4>
+      <ul class="wprm-recipe-ingredients">
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cups
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         walnuts
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         finely ground, 200 grams
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         handful
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         walnuts
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         coarsly chopped
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1/2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cup
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         milk
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         whole
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cup
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         powdered sugar
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         100 grams
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         pinch
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         ground cinnamon
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         tbsp
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         raisins
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         optional
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         tbsp
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         apricot jam
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         coffeespoon
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         lemon zest
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cofeespoon
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         orange zest
+        </span>
+       </li>
+      </ul>
+     </div>
+     <div class="wprm-recipe-ingredient-group">
+      <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-faded">
+       For the poppy seed filling
+      </h4>
+      <ul class="wprm-recipe-ingredients">
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         8.5
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         ounces
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         poppy seeds
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         ground, 250 grams
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1/2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cup
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         milk
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         whole
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         cup
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         powdered sugar
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         2
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         tbsp
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         raisins
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         optional
+        </span>
+       </li>
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-unit">
+         coffeespoon
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         lemon zest
+        </span>
+       </li>
+      </ul>
+     </div>
+     <div class="wprm-recipe-ingredient-group">
+      <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-faded">
+       Other
+      </h4>
+      <ul class="wprm-recipe-ingredients">
+       <li class="wprm-recipe-ingredient">
+        <span class="wprm-recipe-ingredient-amount">
+         1
+        </span>
+        <span class="wprm-recipe-ingredient-name">
+         egg
+        </span>
+        <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+         for eggwash
+        </span>
+       </li>
+      </ul>
+     </div>
     </div>
+   </div>
   </div>
-</body>
+ </body>
 </html>
